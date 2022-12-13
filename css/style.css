@@ -1,0 +1,189 @@
+/*
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ONE PIECE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="top">
+        
+    </div>
+    <div class="bottom"></div>
+    <div class="bottom"></div>
+</body>
+</html>
+
+
+CSS CODE
+
+.top{
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.middle{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left:300px;
+    display: inline-block;
+}
+.bottom{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+body{
+    margin: 0px;
+}
+.top{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    ;
+}
+.middle{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    ;
+}
+.bottom{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    }*/
+
+body {
+  text-align: center;
+  color: #40514E;
+  margin: 0;
+}
+.top-contanier {
+  background-color: antiquewhite;
+  text-align-last: center;
+  padding-top: 100px;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Kenia", cursive;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Rubik Vinyl", cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+h3 {
+  color: #11999e;
+}
+.par-text{
+    width: 25%;
+   margin: auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.compute {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chillie {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.middle-container {
+  padding: 10px;
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 500px;
+}
+.bottom-cloud {
+  position: absolute;
+}
+hr{
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+    color: #EAF6F6;
+}
+.contact-me{
+    margin-bottom: 40px;
+}
+.btn {
+    font-size:20px;
+    font-family:Arial;
+    width:179px;
+    height:67px;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(20, 20, 20, 1);
+    font-weight:bold;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px rgba(28, 29, 28, 1);
+    background:rgba(51, 115, 134, 1);
+    
+  }
+  
+  .btn:hover {
+    background: rgba(42, 191, 183, 1)
+  }
+            
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.par2-text{
+    width: 25%;
+    margin: 40px auto 60px;
+}
+a{
+    color: #6f7171;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: #080808;
+}
+
+.bt{
+  background-color: #080808;
+  color: aqua;
+}
+    
